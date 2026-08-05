@@ -1,0 +1,475 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic:
+            - button "Skip to main content" [ref=e16]
+            - button "Accessibility feedback" [ref=e19]
+          - navigation [ref=e23]:
+            - link "Explore" [ref=e26]
+            - link "Flights" [ref=e34]
+            - link "Hotels" [ref=e42]
+            - link "Vacation rentals" [ref=e53]
+        - generic [ref=e70]:
+          - button "Change appearance" [ref=e72]
+          - tooltip [ref=e75]: Change appearance
+      - generic [ref=e77]:
+        - button "Google apps" [ref=e81] [cursor=pointer]
+        - link "Sign in" [ref=e85] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https://www.google.com/travel/flights?q%3Dflights%2Bfrom%2BBangalore%2Bto%2BFrankfurt&followup=https://www.google.com/travel/flights?q%3Dflights%2Bfrom%2BBangalore%2Bto%2BFrankfurt&ec=GAZAlQM
+  - generic [ref=e93]:
+    - generic [ref=e95]:
+      - generic [ref=e96]: Loading results
+      - progressbar [ref=e97]
+    - generic [ref=e104]:
+      - search [ref=e105]:
+        - heading "Flight search" [level=1] [ref=e106]
+        - generic [ref=e107]:
+          - generic [ref=e108]:
+            - combobox "Change ticket type. Round trip" [ref=e113] [cursor=pointer]:
+              - generic: Round trip
+            - button "1 passenger, change number of passengers." [ref=e119]:
+              - generic [ref=e122]: "1"
+            - combobox "Change seating class. Economy" [ref=e132] [cursor=pointer]:
+              - generic: Economy
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - generic [ref=e141]:
+                - combobox "Where from?" [ref=e142]: Bengaluru
+                - generic [ref=e143]: Bengaluru
+              - button "Swap origin and destination." [ref=e149] [cursor=pointer]
+              - generic [ref=e157]:
+                - combobox "Where to?" [ref=e158]: Frankfurt am Main
+                - generic [ref=e159]: Frankfurt am Main
+            - generic [ref=e172]:
+              - generic [ref=e174]:
+                - textbox "Departure" [ref=e179]: Fri, Sep 18
+                - button [ref=e182]
+                - button [ref=e189]
+              - generic [ref=e196]:
+                - textbox "Return" [ref=e197]: Thu, Sep 24
+                - button [ref=e200]
+                - button [ref=e207]
+          - heading "Filters" [level=2] [ref=e213]
+          - generic [ref=e216]:
+            - button "All filters" [ref=e219]
+            - generic [ref=e227]:
+              - button "Stops, Not selected" [ref=e230]:
+                - generic [ref=e233]: Stops
+              - button "Airlines, Not selected" [ref=e240]:
+                - generic [ref=e243]: Airlines
+              - button "Bags, Not selected" [ref=e250]:
+                - generic [ref=e253]: Bags
+              - button "Price, Not selected" [ref=e260]:
+                - generic [ref=e263]: Price
+              - button "Times, Not selected" [ref=e270]:
+                - generic [ref=e273]: Times
+              - button "Emissions, Not selected" [ref=e280]:
+                - generic [ref=e283]: Emissions
+              - button "Connecting airports, Not selected" [ref=e290]:
+                - generic [ref=e293]: Connecting airports
+              - button "Duration, Not selected" [ref=e300]:
+                - generic [ref=e303]: Duration
+      - main [ref=e308]:
+        - heading "Search results" [level=2] [ref=e309]
+        - generic [ref=e317]:
+          - heading "Travel update" [level=2] [ref=e318]
+          - generic [ref=e319]: Airspace restrictions may affect flights.
+        - generic [ref=e321]:
+          - tablist [ref=e322]:
+            - tab [selected] [ref=e323] [cursor=pointer]:
+              - generic [ref=e324]:
+                - text: Best
+                - button "Learn more about ranking" [ref=e330]
+            - tab "Cheapest from Fetching results 55251 Indian rupees Learn more about ranking" [ref=e334] [cursor=pointer]:
+              - generic [ref=e335]:
+                - text: Cheapest
+                - generic [ref=e337]:
+                  - generic [ref=e338]:
+                    - text: from
+                    - generic [ref=e339]:
+                      - generic [ref=e340]:
+                        - generic [ref=e341]: Fetching results
+                        - progressbar [ref=e342]
+                      - text: ₹55,251
+                  - button "Learn more about ranking" [ref=e361]
+          - tabpanel "BestLearn more about ranking" [ref=e365]:
+            - generic [ref=e366]:
+              - heading "Top departing flights" [level=3] [ref=e367]
+              - generic [ref=e368]:
+                - generic [ref=e369]:
+                  - text: Ranked based on price and convenience
+                  - button "Learn more about ranking" [ref=e373] [cursor=pointer]
+                  - text: Prices include required taxes + fees for 1 adult.
+                  - generic [ref=e377]:
+                    - text: Optional charges and
+                    - button "bag fees" [ref=e378] [cursor=pointer]
+                    - text: may apply.
+                    - generic [ref=e379]:
+                      - button "Passenger assistance" [ref=e380] [cursor=pointer]
+                      - text: info.
+                - button "Sorted by top flights, Change sort order." [ref=e385]:
+                  - generic [ref=e388]: Sorted by top flights
+              - list [ref=e391]:
+                - listitem [ref=e392]:
+                  - generic [ref=e393]:
+                    - link "From 55251 Indian rupees round trip total. 1 stop flight with Akasa Air and Etihad. Leaves Kempegowda International Airport Bengaluru at 10:00 AM on Friday, September 18 and arrives at Frankfurt Airport at 7:05 PM on Friday, September 18. Total duration 12 hr 35 min. Layover (1 of 1) is a 1 hr 45 min layover at Zayed International Airport in Abu Dhabi. Select flight"
+                    - generic [ref=e395] [cursor=pointer]:
+                      - generic [ref=e397]:
+                        - generic [ref=e399]:
+                          - generic "Leaves Kempegowda International Airport Bengaluru at 10:00 AM on Friday, September 18 and arrives at Frankfurt Airport at 7:05 PM on Friday, September 18." [ref=e401]:
+                            - 'generic "Departure time: 10:00 AM." [ref=e404]': 10:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 7:05 PM." [ref=e407]': 7:05 PM
+                          - generic [ref=e408]: Akasa Air, Etihad
+                        - generic [ref=e409]:
+                          - generic "Total duration 12 hr 35 min." [ref=e410]: 12 hr 35 min
+                          - generic [ref=e411]:
+                            - generic [ref=e412]: BLR
+                            - text: –
+                            - generic [ref=e415]: FRA
+                        - generic [ref=e418]:
+                          - generic "1 stop flight." [ref=e420]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 45 min layover at Zayed International Airport in Abu Dhabi." [ref=e421]:
+                            - text: 1 hr 45 min
+                            - generic [ref=e422]: AUH
+                        - generic [ref=e425]:
+                          - generic [ref=e426]: 483 kg CO2e
+                          - generic [ref=e428]:
+                            - generic [ref=e429]: "-6% emissions"
+                            - 'button "Carbon emissions estimate: 483 kilograms. -6% emissions. Learn more about this emissions estimate" [ref=e430]'
+                        - generic [ref=e433]:
+                          - generic [ref=e434]: ₹55,251
+                          - generic [ref=e436]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Kempegowda International Airport Bengaluru at 10:00 AM on Friday, September 18 and arrives at Frankfurt Airport at 7:05 PM on Friday, September 18." [ref=e439]
+                - listitem [ref=e444]:
+                  - generic [ref=e445]:
+                    - link "From 62076 Indian rupees round trip total. 1 stop flight with Etihad. Leaves Kempegowda International Airport Bengaluru at 10:15 PM on Friday, September 18 and arrives at Frankfurt Airport at 6:55 AM on Saturday, September 19. Total duration 12 hr 10 min. Layover (1 of 1) is a 1 hr 35 min layover at Zayed International Airport in Abu Dhabi. Select flight"
+                    - generic [ref=e447] [cursor=pointer]:
+                      - generic [ref=e449]:
+                        - generic [ref=e451]:
+                          - generic "Leaves Kempegowda International Airport Bengaluru at 10:15 PM on Friday, September 18 and arrives at Frankfurt Airport at 6:55 AM on Saturday, September 19." [ref=e453]:
+                            - 'generic "Departure time: 10:15 PM." [ref=e456]': 10:15 PM
+                            - text: –
+                            - 'generic "Arrival time: 6:55 AM on Saturday, September 19." [ref=e459]':
+                              - 'generic "Arrival time: 6:55 AM on Saturday, September 19." [ref=e460]':
+                                - text: 6:55 AM
+                                - generic [ref=e461]: "+1"
+                          - generic [ref=e462]: Etihad
+                        - generic [ref=e463]:
+                          - generic "Total duration 12 hr 10 min." [ref=e464]: 12 hr 10 min
+                          - generic [ref=e465]:
+                            - generic [ref=e466]: BLR
+                            - text: –
+                            - generic [ref=e469]: FRA
+                        - generic [ref=e472]:
+                          - generic "1 stop flight." [ref=e474]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 35 min layover at Zayed International Airport in Abu Dhabi." [ref=e475]:
+                            - text: 1 hr 35 min
+                            - generic [ref=e476]: AUH
+                        - generic [ref=e479]:
+                          - generic [ref=e480]: 480 kg CO2e
+                          - generic [ref=e482]:
+                            - generic [ref=e483]: "-7% emissions"
+                            - 'button "Carbon emissions estimate: 480 kilograms. -7% emissions. Learn more about this emissions estimate" [ref=e484]'
+                        - generic [ref=e487]:
+                          - generic [ref=e488]: ₹62,076
+                          - generic [ref=e490]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Kempegowda International Airport Bengaluru at 10:15 PM on Friday, September 18 and arrives at Frankfurt Airport at 6:55 AM on Saturday, September 19." [ref=e493]
+                - listitem [ref=e498]:
+                  - generic [ref=e499]:
+                    - link "From 63206 Indian rupees round trip total. 1 stop flight with Qatar Airways. Leaves Kempegowda International Airport Bengaluru at 4:00 AM on Friday, September 18 and arrives at Frankfurt Airport at 2:35 PM on Friday, September 18. Total duration 14 hr 5 min. Layover (1 of 1) is a 3 hr 45 min layover at Hamad International Airport in Doha. Select flight"
+                    - generic [ref=e501] [cursor=pointer]:
+                      - generic [ref=e503]:
+                        - generic [ref=e505]:
+                          - generic "Leaves Kempegowda International Airport Bengaluru at 4:00 AM on Friday, September 18 and arrives at Frankfurt Airport at 2:35 PM on Friday, September 18." [ref=e507]:
+                            - 'generic "Departure time: 4:00 AM." [ref=e510]': 4:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 2:35 PM." [ref=e513]': 2:35 PM
+                          - generic [ref=e514]: Qatar Airways
+                        - generic [ref=e515]:
+                          - generic "Total duration 14 hr 5 min." [ref=e516]: 14 hr 5 min
+                          - generic [ref=e517]:
+                            - generic [ref=e518]: BLR
+                            - text: –
+                            - generic [ref=e521]: FRA
+                        - generic [ref=e524]:
+                          - generic "1 stop flight." [ref=e526]: 1 stop
+                          - generic "Layover (1 of 1) is a 3 hr 45 min layover at Hamad International Airport in Doha." [ref=e527]:
+                            - text: 3 hr 45 min
+                            - generic [ref=e528]: DOH
+                        - generic [ref=e531]:
+                          - generic [ref=e532]: 534 kg CO2e
+                          - generic [ref=e534]:
+                            - generic [ref=e535]: Avg emissions
+                            - 'button "Carbon emissions estimate: 534 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e536]'
+                        - generic [ref=e539]:
+                          - generic [ref=e540]: ₹63,206
+                          - generic [ref=e542]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Kempegowda International Airport Bengaluru at 4:00 AM on Friday, September 18 and arrives at Frankfurt Airport at 2:35 PM on Friday, September 18." [ref=e545]
+                - listitem [ref=e550]:
+                  - generic [ref=e551]:
+                    - link "From 65158 Indian rupees round trip total. 1 stop flight with Emirates. Leaves Kempegowda International Airport Bengaluru at 4:45 AM on Friday, September 18 and arrives at Frankfurt Airport at 1:15 PM on Friday, September 18. Total duration 12 hr. Layover (1 of 1) is a 1 hr 20 min layover at Dubai International Airport in Dubai. Select flight"
+                    - generic [ref=e553] [cursor=pointer]:
+                      - generic [ref=e555]:
+                        - generic [ref=e557]:
+                          - generic "Leaves Kempegowda International Airport Bengaluru at 4:45 AM on Friday, September 18 and arrives at Frankfurt Airport at 1:15 PM on Friday, September 18." [ref=e559]:
+                            - 'generic "Departure time: 4:45 AM." [ref=e562]': 4:45 AM
+                            - text: –
+                            - 'generic "Arrival time: 1:15 PM." [ref=e565]': 1:15 PM
+                          - generic [ref=e566]:
+                            - text: Emirates
+                            - generic [ref=e567]: ·
+                            - text: Qantas
+                        - generic [ref=e568]:
+                          - generic "Total duration 12 hr." [ref=e569]: 12 hr
+                          - generic [ref=e570]:
+                            - generic [ref=e571]: BLR
+                            - text: –
+                            - generic [ref=e574]: FRA
+                        - generic [ref=e577]:
+                          - generic "1 stop flight." [ref=e579]: 1 stop
+                          - generic "Layover (1 of 1) is a 1 hr 20 min layover at Dubai International Airport in Dubai." [ref=e580]:
+                            - text: 1 hr 20 min
+                            - generic [ref=e581]: DXB
+                        - generic [ref=e584]:
+                          - generic [ref=e585]: 572 kg CO2e
+                          - generic [ref=e587]:
+                            - generic [ref=e588]: +11% emissions
+                            - 'button "Carbon emissions estimate: 572 kilograms. +11% emissions. Learn more about this emissions estimate" [ref=e589]'
+                        - generic [ref=e592]:
+                          - generic [ref=e593]: ₹65,158
+                          - generic [ref=e595]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Kempegowda International Airport Bengaluru at 4:45 AM on Friday, September 18 and arrives at Frankfurt Airport at 1:15 PM on Friday, September 18." [ref=e598]
+                - listitem [ref=e603]:
+                  - generic [ref=e604]:
+                    - link "From 75814 Indian rupees round trip total. Nonstop flight with Lufthansa. Leaves Kempegowda International Airport Bengaluru at 3:00 AM on Friday, September 18 and arrives at Frankfurt Airport at 9:05 AM on Friday, September 18. Total duration 9 hr 35 min. Select flight"
+                    - generic [ref=e606] [cursor=pointer]:
+                      - generic [ref=e608]:
+                        - generic [ref=e610]:
+                          - generic "Leaves Kempegowda International Airport Bengaluru at 3:00 AM on Friday, September 18 and arrives at Frankfurt Airport at 9:05 AM on Friday, September 18." [ref=e612]:
+                            - 'generic "Departure time: 3:00 AM." [ref=e615]': 3:00 AM
+                            - text: –
+                            - 'generic "Arrival time: 9:05 AM." [ref=e618]': 9:05 AM
+                          - generic [ref=e619]:
+                            - text: Lufthansa
+                            - generic [ref=e620]: ·
+                            - text: Air India
+                        - generic [ref=e621]:
+                          - generic "Total duration 9 hr 35 min." [ref=e622]: 9 hr 35 min
+                          - generic [ref=e623]:
+                            - generic [ref=e624]: BLR
+                            - text: –
+                            - generic [ref=e627]: FRA
+                        - generic "Nonstop flight." [ref=e632]: Nonstop
+                        - generic [ref=e634]:
+                          - generic [ref=e635]: 512 kg CO2e
+                          - generic [ref=e637]:
+                            - generic [ref=e638]: Avg emissions
+                            - 'button "Carbon emissions estimate: 512 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e639]'
+                        - generic [ref=e642]:
+                          - generic [ref=e643]: ₹75,814
+                          - generic [ref=e645]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Kempegowda International Airport Bengaluru at 3:00 AM on Friday, September 18 and arrives at Frankfurt Airport at 9:05 AM on Friday, September 18." [ref=e648]
+            - generic [ref=e657]:
+              - heading "Price insights" [level=3] [ref=e658]
+              - generic [ref=e659] [cursor=pointer]:
+                - heading "Prices are currently typical" [level=4] [ref=e664]
+                - generic [ref=e666]: View price history
+                - button "View price history" [ref=e668]
+            - region "Find the best price" [ref=e673]:
+              - generic [ref=e676]:
+                - heading "Track prices" [level=2] [ref=e679]
+                - button [ref=e683] [cursor=pointer]:
+                  - link "Learn more about tracked prices" [ref=e684]
+                - generic [ref=e687]: Track prices from Bengaluru to Frankfurt am Main departing 2026-09-18 and returning 2026-09-24
+                - generic [ref=e688]:
+                  - generic [ref=e689]: Sep 18 – 24
+                  - switch "Track prices from Bengaluru to Frankfurt am Main departing 2026-09-18 and returning 2026-09-24" [ref=e693] [cursor=pointer]
+                - generic [ref=e704]: Track prices from Bengaluru to Frankfurt am Main - Any dates
+                - generic [ref=e706]:
+                  - generic [ref=e707] [cursor=pointer]: Any dates
+                  - switch "Track prices from Bengaluru to Frankfurt am Main - Any dates" [ref=e710] [cursor=pointer]
+              - generic [ref=e723]:
+                - button "Date grid" [ref=e725]
+                - button "Price graph" [ref=e736]
+            - generic [ref=e749]:
+              - heading "Other departing flights" [level=3] [ref=e750]
+              - list [ref=e751]:
+                - listitem [ref=e752]:
+                  - generic [ref=e753]:
+                    - link "From 55808 Indian rupees round trip total. 1 stop flight with Gulf Air. Leaves Kempegowda International Airport Bengaluru at 5:45 AM on Friday, September 18 and arrives at Frankfurt Airport at 6:55 AM on Saturday, September 19. Total duration 28 hr 40 min. Layover (1 of 1) is a 17 hr 35 min layover at Bahrain International Airport in Bahrain. Select flight"
+                    - generic [ref=e755] [cursor=pointer]:
+                      - generic [ref=e757]:
+                        - generic [ref=e759]:
+                          - generic "Leaves Kempegowda International Airport Bengaluru at 5:45 AM on Friday, September 18 and arrives at Frankfurt Airport at 6:55 AM on Saturday, September 19." [ref=e761]:
+                            - 'generic "Departure time: 5:45 AM." [ref=e764]': 5:45 AM
+                            - text: –
+                            - 'generic "Arrival time: 6:55 AM on Saturday, September 19." [ref=e767]':
+                              - 'generic "Arrival time: 6:55 AM on Saturday, September 19." [ref=e768]':
+                                - text: 6:55 AM
+                                - generic [ref=e769]: "+1"
+                          - generic [ref=e770]: Gulf Air
+                        - generic [ref=e771]:
+                          - generic "Total duration 28 hr 40 min." [ref=e772]: 28 hr 40 min
+                          - generic [ref=e773]:
+                            - generic [ref=e774]: BLR
+                            - text: –
+                            - generic [ref=e777]: FRA
+                        - generic [ref=e780]:
+                          - generic "1 stop flight." [ref=e782]: 1 stop
+                          - generic "Layover (1 of 1) is a 17 hr 35 min layover at Bahrain International Airport in Bahrain." [ref=e790]:
+                            - text: 17 hr 35 min
+                            - generic [ref=e791]: BAH
+                        - generic [ref=e794]:
+                          - generic [ref=e795]: 625 kg CO2e
+                          - generic [ref=e797]:
+                            - generic [ref=e798]: +22% emissions
+                            - 'button "Carbon emissions estimate: 625 kilograms. +22% emissions. Learn more about this emissions estimate" [ref=e799]'
+                        - generic [ref=e802]:
+                          - generic [ref=e803]: ₹55,808
+                          - generic [ref=e805]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Kempegowda International Airport Bengaluru at 5:45 AM on Friday, September 18 and arrives at Frankfurt Airport at 6:55 AM on Saturday, September 19." [ref=e808]
+                - listitem [ref=e813]:
+                  - generic [ref=e814]:
+                    - link "From 56254 Indian rupees round trip total. 1 stop flight with Etihad. Leaves Kempegowda International Airport Bengaluru at 4:35 AM on Friday, September 18 and arrives at Frankfurt Airport at 7:05 PM on Friday, September 18. Total duration 18 hr. Layover (1 of 1) is a 7 hr 20 min layover at Zayed International Airport in Abu Dhabi. Select flight"
+                    - generic [ref=e816] [cursor=pointer]:
+                      - generic [ref=e818]:
+                        - generic [ref=e820]:
+                          - generic "Leaves Kempegowda International Airport Bengaluru at 4:35 AM on Friday, September 18 and arrives at Frankfurt Airport at 7:05 PM on Friday, September 18." [ref=e822]:
+                            - 'generic "Departure time: 4:35 AM." [ref=e825]': 4:35 AM
+                            - text: –
+                            - 'generic "Arrival time: 7:05 PM." [ref=e828]': 7:05 PM
+                          - generic [ref=e829]: Etihad
+                        - generic [ref=e830]:
+                          - generic "Total duration 18 hr." [ref=e831]: 18 hr
+                          - generic [ref=e832]:
+                            - generic [ref=e833]: BLR
+                            - text: –
+                            - generic [ref=e836]: FRA
+                        - generic [ref=e839]:
+                          - generic "1 stop flight." [ref=e841]: 1 stop
+                          - generic "Layover (1 of 1) is a 7 hr 20 min layover at Zayed International Airport in Abu Dhabi." [ref=e849]:
+                            - text: 7 hr 20 min
+                            - generic [ref=e850]: AUH
+                        - generic [ref=e853]:
+                          - generic [ref=e854]: 480 kg CO2e
+                          - generic [ref=e856]:
+                            - generic [ref=e857]: "-7% emissions"
+                            - 'button "Carbon emissions estimate: 480 kilograms. -7% emissions. Learn more about this emissions estimate" [ref=e858]'
+                        - generic [ref=e861]:
+                          - generic [ref=e862]: ₹56,254
+                          - generic [ref=e864]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Kempegowda International Airport Bengaluru at 4:35 AM on Friday, September 18 and arrives at Frankfurt Airport at 7:05 PM on Friday, September 18." [ref=e867]
+                - listitem [ref=e872]:
+                  - generic [ref=e873]:
+                    - link "From 65158 Indian rupees round trip total. 1 stop flight with Emirates. Leaves Kempegowda International Airport Bengaluru at 10:30 AM on Friday, September 18 and arrives at Frankfurt Airport at 8:05 PM on Friday, September 18. Total duration 13 hr 5 min. Layover (1 of 1) is a 2 hr 35 min layover at Dubai International Airport in Dubai. Select flight"
+                    - generic [ref=e875] [cursor=pointer]:
+                      - generic [ref=e877]:
+                        - generic [ref=e879]:
+                          - generic "Leaves Kempegowda International Airport Bengaluru at 10:30 AM on Friday, September 18 and arrives at Frankfurt Airport at 8:05 PM on Friday, September 18." [ref=e881]:
+                            - 'generic "Departure time: 10:30 AM." [ref=e884]': 10:30 AM
+                            - text: –
+                            - 'generic "Arrival time: 8:05 PM." [ref=e887]': 8:05 PM
+                          - generic [ref=e888]: Emirates
+                        - generic [ref=e889]:
+                          - generic "Total duration 13 hr 5 min." [ref=e890]: 13 hr 5 min
+                          - generic [ref=e891]:
+                            - generic [ref=e892]: BLR
+                            - text: –
+                            - generic [ref=e895]: FRA
+                        - generic [ref=e898]:
+                          - generic "1 stop flight." [ref=e900]: 1 stop
+                          - generic "Layover (1 of 1) is a 2 hr 35 min layover at Dubai International Airport in Dubai." [ref=e901]:
+                            - text: 2 hr 35 min
+                            - generic [ref=e902]: DXB
+                        - generic [ref=e905]:
+                          - generic [ref=e906]: 572 kg CO2e
+                          - generic [ref=e908]:
+                            - generic [ref=e909]: +11% emissions
+                            - 'button "Carbon emissions estimate: 572 kilograms. +11% emissions. Learn more about this emissions estimate" [ref=e910]'
+                        - generic [ref=e913]:
+                          - generic [ref=e914]: ₹65,158
+                          - generic [ref=e916]: round trip
+                      - text: · ··
+                    - button "Flight details. Leaves Kempegowda International Airport Bengaluru at 10:30 AM on Friday, September 18 and arrives at Frankfurt Airport at 8:05 PM on Friday, September 18." [ref=e919]
+                - listitem [ref=e924]:
+                  - generic [ref=e925]:
+                    - link "From 65667 Indian rupees round trip total. 1 stop flight with Emirates. Leaves Kempegowda International Airport Bengaluru at 9:00 PM on Friday, September 18 and arrives at Frankfurt Airport at 8:50 AM on Saturday, September 19. Total duration 15 hr 20 min. Layover (1 of 1) is a 4 hr 25 min layover at Dubai International Airport in Dubai. Select flight"
+                    - generic [ref=e927] [cursor=pointer]:
+                      - generic [ref=e929]:
+                        - generic [ref=e931]:
+                          - generic "Leaves Kempegowda International Airport Bengaluru at 9:00 PM on Friday, September 18 and arrives at Frankfurt Airport at 8:50 AM on Saturday, September 19." [ref=e933]:
+                            - 'generic "Departure time: 9:00 PM." [ref=e936]': 9:00 PM
+                            - text: –
+                            - 'generic "Arrival time: 8:50 AM on Saturday, September 19." [ref=e939]':
+                              - 'generic "Arrival time: 8:50 AM on Saturday, September 19." [ref=e940]':
+                                - text: 8:50 AM
+                                - generic [ref=e941]: "+1"
+                          - generic [ref=e942]:
+                            - text: Emirates
+                            - generic [ref=e943]: ·
+                            - text: Qantas
+                        - generic [ref=e944]:
+                          - generic "Total duration 15 hr 20 min." [ref=e945]: 15 hr 20 min
+                          - generic [ref=e946]:
+                            - generic [ref=e947]: BLR
+                            - text: –
+                            - generic [ref=e950]: FRA
+                        - generic [ref=e953]:
+                          - generic "1 stop flight." [ref=e955]: 1 stop
+                          - generic "Layover (1 of 1) is a 4 hr 25 min layover at Dubai International Airport in Dubai." [ref=e956]:
+                            - text: 4 hr 25 min
+                            - generic [ref=e957]: DXB
+                        - generic [ref=e960]:
+                          - generic [ref=e961]: 537 kg CO2e
+                          - generic [ref=e963]:
+                            - generic [ref=e964]: Avg emissions
+                            - 'button "Carbon emissions estimate: 537 kilograms. Average emissions. Learn more about this emissions estimate" [ref=e965]'
+                        - generic [ref=e968]:
+                          - generic [ref=e969]: ₹65,667
+                          - generic [ref=e971]: round trip
+                      - text: · ·· ·
+                    - button "Flight details. Leaves Kempegowda International Airport Bengaluru at 9:00 PM on Friday, September 18 and arrives at Frankfurt Airport at 8:50 AM on Saturday, September 19." [ref=e974]
+                - listitem [ref=e979]:
+                  - generic [ref=e980] [cursor=pointer]:
+                    - button "View more flights" [ref=e983]
+                    - generic [ref=e986]: View more flights
+          - text: · ·· · ·· · ·· · · ·· · · · ·· · · ·· · ·· · ·· · · ·· ·
+      - contentinfo [ref=e989]:
+        - generic [ref=e991]:
+          - button "Language·English (United States)" [ref=e992]
+          - button "Location·India" [ref=e998]
+          - button "Currency INR" [ref=e1005]:
+            - generic [ref=e1017]: Currency·INR
+        - generic [ref=e1019]:
+          - link "About Google Travel" [ref=e1020] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e1021] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e1022] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e1023] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ2%26productTag%3D0%26campaignDate%3DApril2020%26referral_code%3DUXbJ377133&Q_Language=en-US
+          - link "Feedback" [ref=e1024] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e1025] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=2475360
+        - paragraph [ref=e1027]:
+          - text: Displayed currencies may differ from the currencies used to purchase flights.
+          - link "Learn more about currencies" [ref=e1028] [cursor=pointer]:
+            - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=IN
+            - text: Learn more
